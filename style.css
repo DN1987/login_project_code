@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+body {
+    background-color: #81cdd1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* general css start */
+
+.general .one {
+    background-color: #fc6539;
+    width: 600px;
+}
+
+.one h1 {
+    font-size: 24px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    filter: drop-shadow(0.5px 1.866px 0px black);
+    padding: 40px 0;
+}
+
+.one form input {
+    width: 500px;
+    height: 70px;
+    border-radius: 6px;
+    filter: drop-shadow(0px 1px 0px rgba(255, 255, 255, 0.1));
+    background-color: #ba3c24;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-left: 15px;
+}
+
+.one form input::placeholder{
+    color: #fff;
+}
+
+
+.one form input:nth-child(1){
+    margin-bottom: 25px;
+}
+
+.one form input:nth-child(2){
+    margin-bottom: 50px;
+}
