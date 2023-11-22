@@ -9,6 +9,9 @@
 .container {
     max-width: 500px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 body {
@@ -24,6 +27,7 @@ body {
 .general .one {
     background-color: #fc6539;
     width: 600px;
+    padding-bottom: 20px;
 }
 
 .one h1 {
@@ -66,3 +70,25 @@ body {
 .one form input:nth-child(2){
     margin-bottom: 50px;
 }
+.one button{
+    width: 100px;
+    height: 70px;
+    border-radius: 6px;
+    filter: drop-shadow(0px 1px 0px rgba(255, 255, 255, 0.1));
+    background-color: #ba3c24;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.one form p {
+    color: #fff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+
